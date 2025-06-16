@@ -1,3 +1,4 @@
+import 'package:cupertino/widgets/cupertino_context_menu_example.dart';
 import 'package:flutter/cupertino.dart';
 
 void main() {
@@ -11,18 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return CupertinoPageScaffold(
-      child: Placeholder(),
+      home: CupertinoContextMenuExample(),
     );
   }
 }
