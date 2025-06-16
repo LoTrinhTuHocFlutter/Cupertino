@@ -1,4 +1,4 @@
-import 'package:cupertino/widgets/cupertino_tab_bar_example.dart';
+import 'package:cupertino/widgets/cupertino_switch_example.dart';
 import 'package:flutter/cupertino.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: CupertinoTabBarExample(),
+      home: CupertinoSwitchExample(),
     );
   }
 }
