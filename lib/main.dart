@@ -1,4 +1,4 @@
-import 'package:cupertino/widgets/cupertino_checkbox_example.dart';
+import 'package:cupertino/widgets/cupertino_list_tile_example.dart';
 import 'package:flutter/cupertino.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: CupertinoCheckboxExample(),
+      home: CupertinoListTileExample(),
     );
   }
 }
